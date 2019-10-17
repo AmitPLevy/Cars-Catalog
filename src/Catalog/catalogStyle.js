@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
 	background: #70adf8;
 	width: 100vw;
+	max-width: 100%;
 	min-height: 100vh;
 	height: 100%;
 	align-items: center;
