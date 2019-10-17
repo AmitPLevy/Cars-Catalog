@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
 	background: #70adf8;
 	width: 100vw;
+	max-width: 100%;
 	min-height: 100vh;
 	height: 100%;
 	align-items: center;
@@ -18,6 +19,7 @@ export const Title = styled.div`
 export const ProductsContainer = styled.div`
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
 `
 export const LoadingProducts = styled.div`
 	color: #fff;
