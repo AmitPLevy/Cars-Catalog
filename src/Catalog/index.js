@@ -98,8 +98,8 @@ class Catalog extends Component {
 					<ProductsContainer>
 						{this.state.filteredProducts.length === 0 ? (
 							<LoadingProducts>
-								<h1>No products Matches Your Search</h1>
-								<h2>Please Try Again</h2>
+								<h2>No products Matches Your Search</h2>
+								<h3>Please Try Again</h3>
 							</LoadingProducts>
 						) : (
 							this.state.filteredProducts.map(product =>
