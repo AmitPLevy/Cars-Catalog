@@ -23,7 +23,7 @@ export const ProductsContainer = styled.div`
 `
 export const LoadingProducts = styled.div`
 	color: #fff;
-	font-size: 2.5em;
+	font-size: 1.5em;
 	margin-top: 150px;
 	text-align: center;
 	width: fit-content;

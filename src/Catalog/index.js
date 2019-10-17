@@ -96,8 +96,15 @@ class Catalog extends Component {
 				/>
 				{this.state.products.length > 0 ? (
 					<ProductsContainer>
-						{this.state.filteredProducts.map(product =>
-							this.renderProduct(product)
+						{this.state.filteredProducts.length === 0 ? (
+							<LoadingProducts>
+								<h1>No products Matches Your Search</h1>
+								<h2>Please Try Again</h2>
+							</LoadingProducts>
+						) : (
+							this.state.filteredProducts.map(product =>
+								this.renderProduct(product)
+							)
 						)}
 					</ProductsContainer>
 				) : (
